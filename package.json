@@ -1,10 +1,13 @@
 {
-  "name": "faceswap-bot",
+  "name": "faceeswappbot-final",
   "version": "1.0.0",
+  "description": "Telegram FaceSwap bot with credits, referral, payment review, admin reply system",
   "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
-    "node-telegram-bot-api": "^0.61.0",
-    "axios": "^1.6.0",
-    "form-data": "^4.0.0"
+    "node-telegram-bot-api": "^0.66.0"
   }
 }
